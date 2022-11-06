@@ -5,9 +5,7 @@ fn main() {
 
     let mut c = String::new();
 
-    io::stdin()
-        .read_line(&mut c)
-        .expect("Error reading input.");
+    io::stdin().read_line(&mut c).expect("Error reading input.");
 
     let c: f64 = c.trim().parse().expect("Please type a number!");
 
